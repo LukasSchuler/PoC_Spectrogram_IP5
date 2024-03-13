@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomyDetail taxon="Myotis mystacinus" xmlns="http://batscope4.wsl.ch/taxonomy-detail">
+  <protectionStatus switzerland="LC"/>
+  <acoustics>
+    <callSpectrograms>
+      <callSpectrogram callCount="90" durLow95="2.158" durLow95Fil="1.381" durMean="2.977" durMeanFil="1.458" durUp95="3.795" durUp95Fil="1.535" filename="type1" highFreqLow95="67.391"
+        highFreqLow95Fil="60.579" highFreqMean="70.957" highFreqMeanFil="62.135" highFreqUp95="74.523" highFreqUp95Fil="63.692" lowFreqLow95="33.751" lowFreqLow95Fil="37.744" lowFreqMean="35.577"
+        lowFreqMeanFil="38.615" lowFreqUp95="37.403" lowFreqUp95Fil="39.486" peakFreqLow95="45.433" peakFreqMean="46.275" peakFreqUp95="47.117"/>
+      <callSpectrogram callCount="208" durLow95="4.439" durLow95Fil="2.011" durMean="5.282" durMeanFil="2.085" durUp95="6.126" durUp95Fil="2.158" filename="type2" highFreqLow95="79.240"
+        highFreqLow95Fil="62.953" highFreqMean="82.998" highFreqMeanFil="64.533" highFreqUp95="86.756" highFreqUp95Fil="66.114" lowFreqLow95="35.594" lowFreqLow95Fil="39.065" lowFreqMean="36.713"
+        lowFreqMeanFil="39.730" lowFreqUp95="37.831" lowFreqUp95Fil="40.395" peakFreqLow95="47.079" peakFreqMean="47.964" peakFreqUp95="48.849"/>
+      <callSpectrogram callCount="225" durLow95="3.896" durLow95Fil="2.100" durMean="4.534" durMeanFil="2.190" durUp95="5.171" durUp95Fil="2.279" filename="type3" highFreqLow95="71.598"
+        highFreqLow95Fil="57.691" highFreqMean="74.721" highFreqMeanFil="58.962" highFreqUp95="77.845" highFreqUp95Fil="60.233" lowFreqLow95="37.348" lowFreqLow95Fil="38.751" lowFreqMean="38.081"
+        lowFreqMeanFil="39.352" lowFreqUp95="38.814" lowFreqUp95Fil="39.953" peakFreqLow95="45.044" peakFreqMean="45.759" peakFreqUp95="46.475"/>
+      <callSpectrogram callCount="187" durLow95="6.298" durLow95Fil="2.189" durMean="7.205" durMeanFil="2.279" durUp95="8.113" durUp95Fil="2.370" filename="type4" highFreqLow95="78.911"
+        highFreqLow95Fil="53.914" highFreqMean="83.190" highFreqMeanFil="55.063" highFreqUp95="87.469" highFreqUp95Fil="56.212" lowFreqLow95="34.729" lowFreqLow95Fil="37.759" lowFreqMean="35.810"
+        lowFreqMeanFil="38.350" lowFreqUp95="36.891" lowFreqUp95Fil="38.941" peakFreqLow95="44.408" peakFreqMean="45.089" peakFreqUp95="45.769"/>
+      <callSpectrogram callCount="3" durLow95="2.447" durLow95Fil="2.977" durMean="3.297" durMeanFil="4.373" durUp95="4.146" durUp95Fil="5.769" filename="type5" highFreqLow95="43.982"
+        highFreqLow95Fil="43.913" highFreqMean="48.418" highFreqMeanFil="46.516" highFreqUp95="52.854" highFreqUp95Fil="49.119" lowFreqLow95="26.925" lowFreqLow95Fil="22.932" lowFreqMean="31.104"
+        lowFreqMeanFil="29.755" lowFreqUp95="35.283" lowFreqUp95Fil="36.577" peakFreqLow95="28.469" peakFreqMean="36.062" peakFreqUp95="43.655"/>
+    </callSpectrograms>
+    <literature>
+      <source duration="2.5-3 ms" interval="90-100 ms" maxEnergyFreq="50-40 kHz" maxFreq="75 kHz" minFreq="32 kHz" name="Schober 1987"/>
+      <source duration="3-6 ms" maxFreq="120-75 kHz" minFreq="30 (28) kHz" name="Dietz 2007"/>
+      <source comment="Verwechslungsmöglichkeit mit Myotis brandtii." duration="3-6 ms" interval="70-90 ms" maxEnergyFreq="(57) 52-41 (40) kHz" maxFreq="100-65 kHz" minFreq="35-28 kHz"
+        name="Skiba 2009"/>
+    </literature>
+    <audioFiles>
+      <audioFile fftSize="1024" fileName="call1" hopSize="100" windowSize="720"/>
+    </audioFiles>
+  </acoustics>
+  <weblinks>
+    <weblink tabname="Wikipedia" url="https://en.wikipedia.org/wiki/Whiskered_bat"/>
+    <weblink tabname="GBIF" url="https://www.gbif.org/species/9143368"/>
+    <weblink tabname="IUCN Red List" url="http://www.iucnredlist.org/details/14134/0"/>
+    <weblink tabname="CSCF" url="https://lepus.unine.ch/carto/index.php?nuesp=70719&amp;rivieres=on&amp;lacs=on&amp;hillsh=on&amp;data=on&amp;year=2000"/>
+  </weblinks>
+</taxonomyDetail>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomyDetail taxon="Plecotus macrobullaris" xmlns="http://batscope4.wsl.ch/taxonomy-detail">
+  <protectionStatus switzerland="EN"/>
+  <acoustics>
+    <literature>
+      <source duration="-4 ms" maxFreq="46-42 kHz" minFreq="23-15 kHz" name="Dietz 2007"/>
+      <source comment="Wie bei Plecotus auritus." name="Skiba 2009"/>
+    </literature>
+  </acoustics>
+  <weblinks>
+    <weblink tabname="Wikipedia" url="https://en.wikipedia.org/wiki/Alpine_long-eared_bat"/>
+    <weblink tabname="GBIF" url="https://www.gbif.org/species/5787719"/>
+    <weblink tabname="IUCN Red List" url="http://www.iucnredlist.org/details/136229/0"/>
+    <weblink tabname="CSCF" url="https://lepus.unine.ch/carto/index.php?nuesp=70833&amp;rivieres=on&amp;lacs=on&amp;hillsh=on&amp;data=on&amp;year=2000"/>
+    <weblink tabname="SSF" url="http://www.fledermausschutz.ch/Fledermaeuse/Langohren.html"/>
+  </weblinks>
+</taxonomyDetail>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomyDetail taxon="Myotis nattereri" xmlns="http://batscope4.wsl.ch/taxonomy-detail">
+  <protectionStatus switzerland="NT"/>
+  <acoustics>
+    <callSpectrograms>
+      <callSpectrogram callCount="30" durLow95="7.165" durLow95Fil="1.503" durMean="9.548" durMeanFil="1.664" durUp95="11.931" durUp95Fil="1.825" filename="type1" highFreqLow95="59.665"
+        highFreqLow95Fil="55.725" highFreqMean="69.509" highFreqMeanFil="60.117" highFreqUp95="79.353" highFreqUp95Fil="64.509" lowFreqLow95="13.391" lowFreqLow95Fil="24.779" lowFreqMean="16.460"
+        lowFreqMeanFil="26.265" lowFreqUp95="19.529" lowFreqUp95Fil="27.752" peakFreqLow95="39.327" peakFreqMean="41.321" peakFreqUp95="43.314"/>
+      <callSpectrogram callCount="136" durLow95="2.521" durLow95Fil="1.668" durMean="3.133" durMeanFil="1.747" durUp95="3.745" durUp95Fil="1.826" filename="type2" highFreqLow95="69.578"
+        highFreqLow95Fil="59.483" highFreqMean="72.559" highFreqMeanFil="61.188" highFreqUp95="75.540" highFreqUp95Fil="62.894" lowFreqLow95="23.728" lowFreqLow95Fil="27.081" lowFreqMean="24.881"
+        lowFreqMeanFil="27.762" lowFreqUp95="26.033" lowFreqUp95Fil="28.443" peakFreqLow95="42.226" peakFreqMean="43.465" peakFreqUp95="44.704"/>
+      <callSpectrogram callCount="150" durLow95="4.254" durLow95Fil="2.048" durMean="5.275" durMeanFil="2.161" durUp95="6.295" durUp95Fil="2.275" filename="type3" highFreqLow95="71.608"
+        highFreqLow95Fil="57.404" highFreqMean="75.843" highFreqMeanFil="59.136" highFreqUp95="80.078" highFreqUp95Fil="60.869" lowFreqLow95="23.807" lowFreqLow95Fil="26.773" lowFreqMean="24.880"
+        lowFreqMeanFil="27.494" lowFreqUp95="25.954" lowFreqUp95Fil="28.215" peakFreqLow95="41.587" peakFreqMean="42.847" peakFreqUp95="44.106"/>
+      <callSpectrogram callCount="188" durLow95="6.185" durLow95Fil="2.379" durMean="7.216" durMeanFil="2.611" durUp95="8.247" durUp95Fil="2.843" filename="type4" highFreqLow95="74.524"
+        highFreqLow95Fil="55.552" highFreqMean="78.593" highFreqMeanFil="57.288" highFreqUp95="82.661" highFreqUp95Fil="59.024" lowFreqLow95="22.774" lowFreqLow95Fil="26.276" lowFreqMean="23.845"
+        lowFreqMeanFil="27.144" lowFreqUp95="24.915" lowFreqUp95Fil="28.013" peakFreqLow95="39.810" peakFreqMean="41.103" peakFreqUp95="42.396"/>
+      <callSpectrogram callCount="47" durLow95="8.732" durLow95Fil="2.927" durMean="10.996" durMeanFil="3.139" durUp95="13.261" durUp95Fil="3.350" filename="type5" highFreqLow95="66.552"
+        highFreqLow95Fil="48.246" highFreqMean="76.085" highFreqMeanFil="50.058" highFreqUp95="85.618" highFreqUp95Fil="51.870" lowFreqLow95="16.338" lowFreqLow95Fil="23.899" lowFreqMean="18.436"
+        lowFreqMeanFil="24.859" lowFreqUp95="20.534" lowFreqUp95Fil="25.819" peakFreqLow95="33.031" peakFreqMean="35.066" peakFreqUp95="37.101"/>
+    </callSpectrograms>
+    <literature>
+      <source duration="2 ms" interval="70-90 ms" maxEnergyFreq="50 kHz" maxFreq="78 kHz" minFreq="35 kHz" name="Schober 1987"/>
+      <source duration="2-5 ms" maxFreq="150-100 kHz" minFreq="20 kHz" name="Dietz 2007"/>
+      <source comment="Spektrogramm als ansteigendes Dreieck." duration="2-5 ms" interval="75-110 ms" maxEnergyFreq="(53) 48-32 (28) kHz" maxFreq="150-80 kHz" minFreq="25-12 kHz" name="Skiba 2009"/>
+    </literature>
+    <audioFiles>
+      <audioFile fftSize="1024" fileName="call1" hopSize="100" windowSize="720"/>
+    </audioFiles>
+  </acoustics>
+  <weblinks>
+    <weblink tabname="Wikipedia" url="https://en.wikipedia.org/wiki/Natterer%27s_bat"/>
+    <weblink tabname="GBIF" url="https://www.gbif.org/species/2432389"/>
+    <weblink tabname="IUCN Red List" url="http://www.iucnredlist.org/details/14135/0"/>
+    <weblink tabname="CSCF" url="https://lepus.unine.ch/carto/index.php?nuesp=70722&amp;rivieres=on&amp;lacs=on&amp;hillsh=on&amp;data=on&amp;year=2000"/>
+  </weblinks>
+</taxonomyDetail>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomyDetail taxon="Rhinolophus ferrumequinum" xmlns="http://batscope4.wsl.ch/taxonomy-detail">
+  <protectionStatus switzerland="CR"/>
+  <acoustics>
+    <callSpectrograms> 
+      <callSpectrogram callCount="252" durLow95="17.4" durLow95Fil="17.3" durMean="17.8" durMeanFil="17.9" durUp95="18.2" durUp95Fil="18.6" filename="type1" highFreqLow95="86.6" 
+        highFreqLow95Fil="80.4" highFreqMean="88.3" highFreqMeanFil="81.0" highFreqUp95="90.0" highFreqUp95Fil="81.6" lowFreqLow95="49.3" 	lowFreqLow95Fil="91.915" lowFreqMean="52.1" 
+        lowFreqMeanFil="71.7" lowFreqUp95="55.0" lowFreqUp95Fil="72.8" peakFreqLow95="79.3" peakFreqMean="80.0" peakFreqUp95="80.8"/> 
+      <callSpectrogram callCount="333" durLow95="17.7" durLow95Fil="16.8" durMean="18.1" durMeanFil="17.5" durUp95="18.5" durUp95Fil="18.2" filename="type2" highFreqLow95="92.9" 
+        highFreqLow95Fil="77.6" highFreqMean="94.7" highFreqMeanFil="78.8" highFreqUp95="96.6" highFreqUp95Fil="80.1" lowFreqLow95="37.8" lowFreqLow95Fil="70.0" lowFreqMean="40.2" 
+        lowFreqMeanFil="71.5" lowFreqUp95="42.6" lowFreqUp95Fil="72.9" peakFreqLow95="75.6" peakFreqMean="77.1" peakFreqUp95="78.5"/> 
+      <callSpectrogram callCount="687" durLow95="16.3" durLow95Fil="19.2" durMean="16.5" durMeanFil="19.6" durUp95="16.7" durUp95Fil="20.0" filename="type3" highFreqLow95="84.1" 
+        highFreqLow95Fil="81.0" highFreqMean="84.8" highFreqMeanFil="81.3" highFreqUp95="85.5" highFreqUp95Fil="81.6" lowFreqLow95="66.5" lowFreqLow95Fil="73.4" lowFreqMean="68.0" 
+        lowFreqMeanFil="73.8" lowFreqUp95="69.5" lowFreqUp95Fil="74.3" peakFreqLow95="80.4" peakFreqMean="80.8" peakFreqUp95="81.1"/> 
+      <callSpectrogram callCount="1804" durLow95="20.9" durLow95Fil="23.8" durMean="21.0" durMeanFil="23.9" durUp95="21.1" durUp95Fil="24.1" filename="type4" highFreqLow95="87.9" 
+        highFreqLow95Fil="81.70" highFreqMean="88.5" highFreqMeanFil="81.8" highFreqUp95="89.2" highFreqUp95Fil="81.9" lowFreqLow95="65.3" lowFreqLow95Fil="81.0" lowFreqMean="66.4" 
+        lowFreqMeanFil="81.2" lowFreqUp95="67.5" lowFreqUp95Fil="81.3" peakFreqLow95="81.5" peakFreqMean="81.6" peakFreqUp95="81.7"/> 
+    </callSpectrograms>
+    <literature>
+      <source duration="30-40 ms" maxEnergyFreq="88-77 kHz" name="Schober 1987"/>
+      <source maxEnergyFreq="84-79 kHz" name="Dietz 2007"/>
+      <source duration="35-75 ms" interval="80-120 ms" maxEnergyFreq="(86) 84-79 (77) kHz" minFreq="60-50 kHz" name="Skiba 2009"/>
+    </literature>
+    <audioFiles>
+      <audioFile fftSize="1024" fileName="call1" hopSize="100" windowSize="720"/>
+    </audioFiles>
+  </acoustics>
+  <weblinks>
+    <weblink tabname="Wikipedia" url="https://en.wikipedia.org/wiki/Greater_horseshoe_bat"/>
+    <weblink tabname="GBIF" url="https://www.gbif.org/species/2432655"/>
+    <weblink tabname="IUCN Red List" url="http://www.iucnredlist.org/details/19517/0"/>
+    <weblink tabname="CSCF" url="https://lepus.unine.ch/carto/index.php?nuesp=70700&amp;rivieres=on&amp;lacs=on&amp;hillsh=on&amp;data=on&amp;year=2000"/>
+  </weblinks>
+</taxonomyDetail>

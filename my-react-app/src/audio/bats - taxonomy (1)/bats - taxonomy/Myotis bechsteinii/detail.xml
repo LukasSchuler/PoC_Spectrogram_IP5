@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomyDetail taxon="Myotis bechsteinii" xmlns="http://batscope4.wsl.ch/taxonomy-detail">
+  <protectionStatus switzerland="VU"/>
+  <acoustics>
+    <callSpectrograms>
+      <callSpectrogram callCount="48" durLow95="12.506" durLow95Fil="1.538" durMean="14.584" durMeanFil="1.750" durUp95="16.662" durUp95Fil="1.962" filename="type1" highFreqLow95="80.488"
+        highFreqLow95Fil="60.068" highFreqMean="89.453" highFreqMeanFil="63.569" highFreqUp95="98.418" highFreqUp95Fil="67.071" lowFreqLow95="15.189" lowFreqLow95Fil="40.948" lowFreqMean="18.510"
+        lowFreqMeanFil="42.941" lowFreqUp95="21.830" lowFreqUp95Fil="44.933" peakFreqLow95="49.259" peakFreqMean="52.210" peakFreqUp95="55.162"/>
+      <callSpectrogram callCount="139" durLow95="7.379" durLow95Fil="2.193" durMean="8.631" durMeanFil="2.288" durUp95="9.882" durUp95Fil="2.384" filename="type2" highFreqLow95="80.409"
+        highFreqLow95Fil="60.933" highFreqMean="84.698" highFreqMeanFil="62.582" highFreqUp95="88.987" highFreqUp95Fil="64.231" lowFreqLow95="29.316" lowFreqLow95Fil="39.589" lowFreqMean="31.420"
+        lowFreqMeanFil="40.104" lowFreqUp95="33.523" lowFreqUp95Fil="40.620" peakFreqLow95="47.041" peakFreqMean="48.100" peakFreqUp95="49.160"/>
+      <callSpectrogram callCount="58" durLow95="6.390" durLow95Fil="2.568" durMean="8.350" durMeanFil="2.828" durUp95="10.309" durUp95Fil="3.087" filename="type3" highFreqLow95="62.906"
+        highFreqLow95Fil="54.988" highFreqMean="67.067" highFreqMeanFil="57.405" highFreqUp95="71.228" highFreqUp95Fil="59.823" lowFreqLow95="26.243" lowFreqLow95Fil="37.702" lowFreqMean="29.789"
+        lowFreqMeanFil="38.442" lowFreqUp95="33.335" lowFreqUp95Fil="39.181" peakFreqLow95="44.087" peakFreqMean="45.587" peakFreqUp95="47.087"/>
+      <callSpectrogram callCount="66" durLow95="9.680" durLow95Fil="3.149" durMean="11.424" durMeanFil="3.653" durUp95="13.168" durUp95Fil="4.158" filename="type4" highFreqLow95="74.411"
+        highFreqLow95Fil="48.940" highFreqMean="80.293" highFreqMeanFil="50.571" highFreqUp95="86.176" highFreqUp95Fil="52.202" lowFreqLow95="27.914" lowFreqLow95Fil="34.336" lowFreqMean="30.571"
+        lowFreqMeanFil="35.285" lowFreqUp95="33.229" lowFreqUp95Fil="36.234" peakFreqLow95="39.747" peakFreqMean="41.000" peakFreqUp95="42.253"/>
+      <callSpectrogram callCount="75" durLow95="12.874" durLow95Fil="5.126" durMean="14.100" durMeanFil="5.314" durUp95="15.327" durUp95Fil="5.502" filename="type5" highFreqLow95="90.279"
+        highFreqLow95Fil="47.612" highFreqMean="94.661" highFreqMeanFil="48.842" highFreqUp95="99.043" highFreqUp95Fil="50.072" lowFreqLow95="32.032" lowFreqLow95Fil="31.429" lowFreqMean="32.601"
+        lowFreqMeanFil="31.834" lowFreqUp95="33.169" lowFreqUp95Fil="32.238" peakFreqLow95="37.409" peakFreqMean="38.291" peakFreqUp95="39.174"/>
+    </callSpectrograms>
+    <literature>
+      <source duration="2-5 ms" interval="65-110 ms" maxFreq="80-60 kHz" minFreq="38-32 kHz" name="Schober 1987"/>
+      <source duration="2.5-5 ms" maxFreq="100 kHz" minFreq="35 kHz" name="Dietz 2007"/>
+      <source duration="2.5-6 (7) ms" interval="90-110 (170) ms" maxEnergyFreq="(50) 48-41 (38) kHz" maxFreq="100-80 kHz" minFreq="40-25 kHz" name="Skiba 2009"/>
+    </literature>
+    <audioFiles>
+      <audioFile fftSize="1024" fileName="call1" hopSize="100" windowSize="720"/>
+    </audioFiles>
+  </acoustics>
+  <weblinks>
+    <weblink tabname="Wikipedia" url="https://en.wikipedia.org/wiki/Bechstein%27s_bat"/>
+    <weblink tabname="GBIF" url="https://www.gbif.org/species/2432427"/>
+    <weblink tabname="IUCN Red List" url="http://www.iucnredlist.org/details/14123/0"/>
+    <weblink tabname="CSCF" url="https://lepus.unine.ch/carto/index.php?nuesp=70711&amp;rivieres=on&amp;lacs=on&amp;hillsh=on&amp;data=on&amp;year=2000"/>
+  </weblinks>
+</taxonomyDetail>

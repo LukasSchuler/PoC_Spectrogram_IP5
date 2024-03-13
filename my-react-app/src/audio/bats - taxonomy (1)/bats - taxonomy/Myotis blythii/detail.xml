@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomyDetail taxon="Myotis blythii" xmlns="http://batscope4.wsl.ch/taxonomy-detail">
+  <protectionStatus switzerland="CR"/>
+  <acoustics>
+    <callSpectrograms>
+      <callSpectrogram callCount="30" durLow95="7.765" durLow95Fil="1.164" durMean="10.752" durMeanFil="1.941" durUp95="13.739" durUp95Fil="2.719" filename="type1" highFreqLow95="87.618"
+        highFreqLow95Fil="56.242" highFreqMean="98.522" highFreqMeanFil="61.215" highFreqUp95="109.425" highFreqUp95Fil="66.189" lowFreqLow95="19.897" lowFreqLow95Fil="32.246" lowFreqMean="23.870"
+        lowFreqMeanFil="35.614" lowFreqUp95="27.843" lowFreqUp95Fil="38.982" peakFreqLow95="42.629" peakFreqMean="47.262" peakFreqUp95="51.895"/>
+      <callSpectrogram callCount="76" durLow95="3.249" durLow95Fil="1.801" durMean="4.551" durMeanFil="1.973" durUp95="5.854" durUp95Fil="2.144" filename="type2" highFreqLow95="72.427"
+        highFreqLow95Fil="63.280" highFreqMean="76.580" highFreqMeanFil="66.599" highFreqUp95="80.734" highFreqUp95Fil="69.919" lowFreqLow95="26.725" lowFreqLow95Fil="31.147" lowFreqMean="28.455"
+        lowFreqMeanFil="33.232" lowFreqUp95="30.185" lowFreqUp95Fil="35.317" peakFreqLow95="45.129" peakFreqMean="47.479" peakFreqUp95="49.829"/>
+      <callSpectrogram callCount="74" durLow95="6.065" durLow95Fil="2.089" durMean="7.782" durMeanFil="2.614" durUp95="9.499" durUp95Fil="3.139" filename="type3" highFreqLow95="83.486"
+        highFreqLow95Fil="69.651" highFreqMean="88.263" highFreqMeanFil="74.342" highFreqUp95="93.040" highFreqUp95Fil="79.032" lowFreqLow95="30.886" lowFreqLow95Fil="36.999" lowFreqMean="33.197"
+        lowFreqMeanFil="38.621" lowFreqUp95="35.507" lowFreqUp95Fil="40.243" peakFreqLow95="49.208" peakFreqMean="53.006" peakFreqUp95="56.804"/>
+    </callSpectrograms>
+    <literature>
+      <source comment="Laute ähnlich Myotis myotis." name="Schober 1987"/>
+      <source comment="Laute ähnlich Myotis myotis." name="Dietz 2007"/>
+      <source duration="5-10 ms" interval="90-160 ms" maxEnergyFreq="(40) 37-30 (28) kHz" maxFreq="80-50 kHz" minFreq="26-21 kHz" name="Skiba 2009"/>
+    </literature>
+    <audioFiles>
+      <audioFile fftSize="1024" fileName="call1" hopSize="100" windowSize="720"/>
+    </audioFiles>
+  </acoustics>
+  <weblinks>
+    <weblink tabname="Wikipedia" url="https://en.wikipedia.org/wiki/Lesser_mouse-eared_bat"/>
+    <weblink tabname="GBIF" url="https://www.gbif.org/species/2432414"/>
+    <weblink tabname="IUCN Red List" url="http://www.iucnredlist.org/details/14124/0"/>
+    <weblink tabname="CSCF" url="https://lepus.unine.ch/carto/index.php?nuesp=70712&amp;rivieres=on&amp;lacs=on&amp;hillsh=on&amp;data=on&amp;year=2000"/>
+    <weblink tabname="SSF" url="http://www.fledermausschutz.ch/Fledermaeuse/Mausohren.html"/>
+  </weblinks>
+</taxonomyDetail>

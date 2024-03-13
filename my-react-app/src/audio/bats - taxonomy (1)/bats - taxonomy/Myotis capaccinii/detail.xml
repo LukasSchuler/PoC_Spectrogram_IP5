@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomyDetail taxon="Myotis capaccinii" xmlns="http://batscope4.wsl.ch/taxonomy-detail">
+  <protectionStatus switzerland="DD"/>
+  <acoustics>
+    <callSpectrograms>
+      <callSpectrogram callCount="345" durLow95="12.194" durLow95Fil="2.245" durMean="12.971" durMeanFil="2.364" durUp95="13.749" durUp95Fil="2.483" filename="type1" highFreqLow95="58.512"
+        highFreqLow95Fil="58.022" highFreqMean="59.012" highFreqMeanFil="58.585" highFreqUp95="59.511" highFreqUp95Fil="59.148" lowFreqLow95="16.778" lowFreqLow95Fil="40.779" lowFreqMean="17.774"
+        lowFreqMeanFil="41.036" lowFreqUp95="18.769" lowFreqUp95Fil="41.292" peakFreqLow95="46.803" peakFreqMean="47.181" peakFreqUp95="47.558"/>
+      <callSpectrogram callCount="427" durLow95="8.963" durLow95Fil="3.194" durMean="9.650" durMeanFil="3.367" durUp95="10.337" durUp95Fil="3.540" filename="type2" highFreqLow95="56.854"
+        highFreqLow95Fil="55.944" highFreqMean="57.575" highFreqMeanFil="56.652" highFreqUp95="58.296" highFreqUp95Fil="57.360" lowFreqLow95="22.027" lowFreqLow95Fil="39.933" lowFreqMean="23.210"
+        lowFreqMeanFil="40.179" lowFreqUp95="24.392" lowFreqUp95Fil="40.425" peakFreqLow95="44.975" peakFreqMean="45.408" peakFreqUp95="45.841"/>
+      <callSpectrogram callCount="318" durLow95="8.329" durLow95Fil="4.171" durMean="9.072" durMeanFil="4.284" durUp95="9.816" durUp95Fil="4.396" filename="type3" highFreqLow95="54.044"
+        highFreqLow95Fil="53.157" highFreqMean="54.725" highFreqMeanFil="53.882" highFreqUp95="55.407" highFreqUp95Fil="54.607" lowFreqLow95="23.475" lowFreqLow95Fil="38.938" lowFreqMean="24.865"
+        lowFreqMeanFil="39.209" lowFreqUp95="26.255" lowFreqUp95Fil="39.481" peakFreqLow95="43.133" peakFreqMean="43.527" peakFreqUp95="43.921"/>
+      <callSpectrogram callCount="177" durLow95="9.928" durLow95Fil="4.684" durMean="10.954" durMeanFil="4.815" durUp95="11.979" durUp95Fil="4.946" filename="type4" highFreqLow95="49.305"
+        highFreqLow95Fil="48.957" highFreqMean="49.729" highFreqMeanFil="49.363" highFreqUp95="50.154" highFreqUp95Fil="49.768" lowFreqLow95="19.538" lowFreqLow95Fil="38.347" lowFreqMean="21.173"
+        lowFreqMeanFil="38.575" lowFreqUp95="22.807" lowFreqUp95Fil="38.804" peakFreqLow95="41.765" peakFreqMean="42.031" peakFreqUp95="42.296"/>
+    </callSpectrograms>
+    <literature>
+      <source comment="Laute ähnlich Wasserfledermaus." name="Schober 1987"/>
+      <source comment="Zu verwechseln mit Myotis daubentonii, aber meist höhere Minimalfrequenz." duration="3-7 ms" maxFreq="90-70 kHz" minFreq="39-35 (30) kHz" name="Dietz 2007"/>
+      <source comment="Verwechslungsm\öglichkeit mit Myotis daubentonii." duration="3-7 ms" interval="65-95 ms" maxEnergyFreq="(55) 49-41 (40) kHz" maxFreq="90-50 kHz" minFreq="38-28 kHz"
+        name="Skiba 2009"/>
+    </literature>
+    <audioFiles>
+      <audioFile fftSize="1024" fileName="call1" hopSize="100" windowSize="720"/>
+    </audioFiles>
+  </acoustics>
+  <weblinks>
+    <weblink tabname="Wikipedia" url="https://en.wikipedia.org/wiki/Long-fingered_bat"/>
+    <weblink tabname="GBIF" url="https://www.gbif.org/species/2432430"/>
+    <weblink tabname="IUCN Red List" url="http://www.iucnredlist.org/details/14126/0"/>
+    <weblink tabname="CSCF" url="https://lepus.unine.ch/carto/index.php?nuesp=70714&amp;rivieres=on&amp;lacs=on&amp;hillsh=on&amp;data=on&amp;year=2000"/>
+  </weblinks>
+</taxonomyDetail>

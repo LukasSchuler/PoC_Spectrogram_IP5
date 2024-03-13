@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomyDetail taxon="Nyctalus leisleri" xmlns="http://batscope4.wsl.ch/taxonomy-detail">
+  <protectionStatus switzerland="NT"/>
+  <acoustics>
+    <callSpectrograms>
+      <callSpectrogram callCount="243" durLow95="4.524" durLow95Fil="2.254" durMean="5.290" durMeanFil="2.347" durUp95="6.056" durUp95Fil="2.440" filename="type1" highFreqLow95="57.099"
+        highFreqLow95Fil="42.043" highFreqMean="60.432" highFreqMeanFil="42.540" highFreqUp95="63.766" highFreqUp95Fil="43.037" lowFreqLow95="22.439" lowFreqLow95Fil="27.737" lowFreqMean="23.473"
+        lowFreqMeanFil="28.039" lowFreqUp95="24.508" lowFreqUp95Fil="28.342" peakFreqLow95="32.996" peakFreqMean="33.275" peakFreqUp95="33.553"/>
+      <callSpectrogram callCount="219" durLow95="5.411" durLow95Fil="4.128" durMean="6.087" durMeanFil="4.327" durUp95="6.763" durUp95Fil="4.526" filename="type2" highFreqLow95="55.675"
+        highFreqLow95Fil="38.842" highFreqMean="59.739" highFreqMeanFil="39.525" highFreqUp95="63.803" highFreqUp95Fil="40.208" lowFreqLow95="24.427" lowFreqLow95Fil="27.335" lowFreqMean="25.295"
+        lowFreqMeanFil="27.602" lowFreqUp95="26.162" lowFreqUp95Fil="27.869" peakFreqLow95="30.540" peakFreqMean="30.818" peakFreqUp95="31.096"/>
+      <callSpectrogram callCount="298" durLow95="7.084" durLow95Fil="6.328" durMean="7.594" durMeanFil="6.548" durUp95="8.103" durUp95Fil="6.768" filename="type3" highFreqLow95="49.852"
+        highFreqLow95Fil="35.244" highFreqMean="53.392" highFreqMeanFil="35.787" highFreqUp95="56.932" highFreqUp95Fil="36.330" lowFreqLow95="22.859" lowFreqLow95Fil="26.530" lowFreqMean="23.600"
+        lowFreqMeanFil="26.760" lowFreqUp95="24.340" lowFreqUp95Fil="26.990" peakFreqLow95="29.024" peakFreqMean="29.333" peakFreqUp95="29.642"/>
+      <callSpectrogram callCount="101" durLow95="9.032" durLow95Fil="7.940" durMean="9.942" durMeanFil="8.535" durUp95="10.853" durUp95Fil="9.131" filename="type4" highFreqLow95="49.216"
+        highFreqLow95Fil="30.354" highFreqMean="56.081" highFreqMeanFil="30.958" highFreqUp95="62.946" highFreqUp95Fil="31.563" lowFreqLow95="20.836" lowFreqLow95Fil="25.730" lowFreqMean="22.101"
+        lowFreqMeanFil="26.183" lowFreqUp95="23.365" lowFreqUp95Fil="26.637" peakFreqLow95="26.994" peakFreqMean="27.431" peakFreqUp95="27.868"/>
+      <callSpectrogram callCount="56" durLow95="11.204" durLow95Fil="12.063" durMean="12.094" durMeanFil="12.994" durUp95="12.984" durUp95Fil="13.926" filename="type5" highFreqLow95="36.348"
+        highFreqLow95Fil="24.457" highFreqMean="44.673" highFreqMeanFil="24.924" highFreqUp95="52.998" highFreqUp95Fil="25.391" lowFreqLow95="20.316" lowFreqLow95Fil="22.905" lowFreqMean="21.301"
+        lowFreqMeanFil="23.553" lowFreqUp95="22.285" lowFreqUp95Fil="24.201" peakFreqLow95="23.193" peakFreqMean="23.809" peakFreqUp95="24.425"/>
+    </callSpectrograms>
+    <literature>
+      <source comment="Ähnlich Nyctalus noctula." name="Schober 1987"/>
+      <source duration="-20 ms" maxEnergyFreq="24 kHz" maxFreq="26 kHz" minFreq="21 kHz" name="Dietz 2007"/>
+      <source duration="(5) 7-16 (20) ms" interval="(100) 200-300 (400) ms" maxEnergyFreq="(30) 28-22 (21) kHz" maxFreq="40-25 kHz" minFreq="26-22 kHz" name="Skiba 2009"/>
+    </literature>
+    <audioFiles>
+      <audioFile fftSize="1024" fileName="call1" hopSize="100" windowSize="720"/>
+    </audioFiles>
+  </acoustics>
+  <weblinks>
+    <weblink tabname="Wikipedia" url="https://en.wikipedia.org/wiki/Lesser_noctule"/>
+    <weblink tabname="GBIF" url="https://www.gbif.org/species/5218522"/>
+    <weblink tabname="IUCN Red List" url="http://www.iucnredlist.org/details/14919/0"/>
+    <weblink tabname="CSCF" url="https://lepus.unine.ch/carto/index.php?nuesp=70725&amp;rivieres=on&amp;lacs=on&amp;hillsh=on&amp;data=on&amp;year=2000"/>
+    <weblink tabname="SSF" url="http://www.fledermausschutz.ch/Fledermaeuse/Abendsegler.html"/>
+  </weblinks>
+</taxonomyDetail>

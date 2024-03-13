@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomyDetail taxon="Myotis emarginatus" xmlns="http://batscope4.wsl.ch/taxonomy-detail">
+  <protectionStatus switzerland="EN"/>
+  <acoustics>
+    <callSpectrograms>
+      <callSpectrogram callCount="205" durLow95="7.715" durLow95Fil="1.683" durMean="8.716" durMeanFil="1.746" durUp95="9.717" durUp95Fil="1.809" filename="type1" highFreqLow95="90.047"
+        highFreqLow95Fil="77.204" highFreqMean="92.799" highFreqMeanFil="78.481" highFreqUp95="95.550" highFreqUp95Fil="79.759" lowFreqLow95="24.980" lowFreqLow95Fil="47.755" lowFreqMean="27.469"
+        lowFreqMeanFil="48.349" lowFreqUp95="29.959" lowFreqUp95Fil="48.944" peakFreqLow95="59.439" peakFreqMean="60.446" peakFreqUp95="61.454"/>
+      <callSpectrogram callCount="256" durLow95="6.394" durLow95Fil="1.975" durMean="7.285" durMeanFil="2.131" durUp95="8.176" durUp95Fil="2.286" filename="type2" highFreqLow95="83.479"
+        highFreqLow95Fil="71.940" highFreqMean="85.982" highFreqMeanFil="73.308" highFreqUp95="88.486" highFreqUp95Fil="74.676" lowFreqLow95="29.533" lowFreqLow95Fil="45.697" lowFreqMean="31.674"
+        lowFreqMeanFil="46.344" lowFreqUp95="33.815" lowFreqUp95Fil="46.991" peakFreqLow95="53.653" peakFreqMean="54.631" peakFreqUp95="55.609"/>
+      <callSpectrogram callCount="251" durLow95="7.914" durLow95Fil="2.224" durMean="8.888" durMeanFil="2.360" durUp95="9.862" durUp95Fil="2.497" filename="type3" highFreqLow95="82.047"
+        highFreqLow95Fil="68.141" highFreqMean="84.701" highFreqMeanFil="69.525" highFreqUp95="87.356" highFreqUp95Fil="70.909" lowFreqLow95="27.670" lowFreqLow95Fil="44.511" lowFreqMean="29.817"
+        lowFreqMeanFil="44.939" lowFreqUp95="31.965" lowFreqUp95Fil="45.367" peakFreqLow95="51.361" peakFreqMean="52.075" peakFreqUp95="52.789"/>
+      <callSpectrogram callCount="202" durLow95="9.814" durLow95Fil="2.362" durMean="10.868" durMeanFil="2.527" durUp95="11.921" durUp95Fil="2.692" filename="type4" highFreqLow95="84.065"
+        highFreqLow95Fil="63.658" highFreqMean="87.700" highFreqMeanFil="64.861" highFreqUp95="91.335" highFreqUp95Fil="66.064" lowFreqLow95="24.577" lowFreqLow95Fil="44.365" lowFreqMean="26.849"
+        lowFreqMeanFil="44.686" lowFreqUp95="29.121" lowFreqUp95Fil="45.006" peakFreqLow95="51.276" peakFreqMean="51.936" peakFreqUp95="52.595"/>
+      <callSpectrogram callCount="106" durLow95="6.457" durLow95Fil="2.542" durMean="7.862" durMeanFil="2.815" durUp95="9.267" durUp95Fil="3.088" filename="type5" highFreqLow95="79.640"
+        highFreqLow95Fil="61.938" highFreqMean="84.743" highFreqMeanFil="63.778" highFreqUp95="89.846" highFreqUp95Fil="65.618" lowFreqLow95="32.104" lowFreqLow95Fil="43.433" lowFreqMean="34.824"
+        lowFreqMeanFil="43.781" lowFreqUp95="37.545" lowFreqUp95Fil="44.129" peakFreqLow95="49.184" peakFreqMean="49.957" peakFreqUp95="50.729"/>
+    </callSpectrograms>
+    <literature>
+      <source comment="Keine Angaben zu Ortungslauten." name="Schober 1987"/>
+      <source duration="1.5-4 ms" maxFreq="140-14 kHz" minFreq="(48) 38 (30) kHz" name="Dietz 2007"/>
+      <source duration="1.5-4 (7.7) ms" interval="(40) 60-90 ms" maxEnergyFreq="(75) 65-50 (48) kHz" maxFreq="140-90 kHz" minFreq="40-30 kHz" name="Skiba 2009"/>
+    </literature>
+    <audioFiles>
+      <audioFile fftSize="1024" fileName="call1" hopSize="100" windowSize="720"/>
+    </audioFiles>
+  </acoustics>
+  <weblinks>
+    <weblink tabname="Wikipedia" url="https://en.wikipedia.org/wiki/Geoffroy%27s_bat"/>
+    <weblink tabname="GBIF" url="https://www.gbif.org/species/2432470"/>
+    <weblink tabname="IUCN Red List" url="http://www.iucnredlist.org/details/14129/0"/>
+    <weblink tabname="CSCF" url="https://lepus.unine.ch/carto/index.php?nuesp=70716&amp;rivieres=on&amp;lacs=on&amp;hillsh=on&amp;data=on&amp;year=2000"/>
+  </weblinks>
+</taxonomyDetail>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomyDetail taxon="Barbastella barbastellus" xmlns="http://batscope4.wsl.ch/taxonomy-detail">
+  <protectionStatus switzerland="EN"/>
+  <acoustics>
+    <callSpectrograms>
+      <callSpectrogram callCount="151" durLow95="10.763" durLow95Fil="2.854" durMean="11.875" durMeanFil="2.981" durUp95="12.986" durUp95Fil="3.108" filename="type1" highFreqLow95="80.288"
+        highFreqLow95Fil="43.241" highFreqMean="85.922" highFreqMeanFil="43.840" highFreqUp95="91.556" highFreqUp95Fil="44.439" lowFreqLow95="14.714" lowFreqLow95Fil="29.988" lowFreqMean="16.255"
+        lowFreqMeanFil="30.393" lowFreqUp95="17.796" lowFreqUp95Fil="30.799" peakFreqLow95="37.602" peakFreqMean="38.390" peakFreqUp95="39.179"/>
+      <callSpectrogram callCount="209" durLow95="6.210" durLow95Fil="2.501" durMean="7.162" durMeanFil="2.580" durUp95="8.114" durUp95Fil="2.659" filename="type2" highFreqLow95="56.681"
+        highFreqLow95Fil="36.473" highFreqMean="61.658" highFreqMeanFil="36.909" highFreqUp95="66.636" highFreqUp95Fil="37.345" lowFreqLow95="22.296" lowFreqLow95Fil="29.974" lowFreqMean="23.636"
+        lowFreqMeanFil="30.216" lowFreqUp95="24.976" lowFreqUp95Fil="30.458" peakFreqLow95="33.965" peakFreqMean="34.366" peakFreqUp95="34.767"/>
+      <callSpectrogram callCount="141" durLow95="5.922" durLow95Fil="4.030" durMean="6.832" durMeanFil="4.188" durUp95="7.742" durUp95Fil="4.347" filename="type3" highFreqLow95="60.830"
+        highFreqLow95Fil="42.231" highFreqMean="65.473" highFreqMeanFil="42.702" highFreqUp95="70.117" highFreqUp95Fil="43.174" lowFreqLow95="22.940" lowFreqLow95Fil="29.559" lowFreqMean="24.464"
+        lowFreqMeanFil="29.960" lowFreqUp95="25.989" lowFreqUp95Fil="30.361" peakFreqLow95="35.905" peakFreqMean="36.672" peakFreqUp95="37.439"/>
+    </callSpectrograms>
+    <literature>
+      <source duration="4-5.2 ms" interval="110-120 ms" maxEnergyFreq="(43) 35-30 kHz" maxFreq="43-35 kHz" minFreq="33-28 kHz" name="Schober 1987"/>
+      <source duration="2-6 ms" maxFreq="45-36 kHz" minFreq="35-28 kHz" name="Dietz 2007"/>
+      <source comment="Alternierende Ruftypen, inverse Krümmung des Spektrogramms. Werte in Klammern beschreiben hier Ruftypen." duration="(2.3) 3.3-4 (6.5) ms" interval="50-75 ms"
+        maxEnergyFreq="(42) 39-33 (32) kHz" maxFreq="(48) 42 (38) kHz" minFreq="(27) 30 (25) kHz" name="Skiba 2009"/>
+    </literature>
+    <audioFiles>
+      <audioFile fftSize="1024" fileName="call1" hopSize="100" windowSize="720"/>
+    </audioFiles>
+  </acoustics>
+  <weblinks>
+    <weblink tabname="Wikipedia" url="https://en.wikipedia.org/wiki/Barbastelle"/>
+    <weblink tabname="GBIF" url="https://www.gbif.org/species/2432582"/>
+    <weblink tabname="IUCN Red List" url="http://www.iucnredlist.org/details/2553/0"/>
+    <weblink tabname="CSCF" url="https://lepus.unine.ch/carto/index.php?nuesp=70705&amp;rivieres=on&amp;lacs=on&amp;hillsh=on&amp;data=on&amp;year=2000"/>
+  </weblinks>
+</taxonomyDetail>

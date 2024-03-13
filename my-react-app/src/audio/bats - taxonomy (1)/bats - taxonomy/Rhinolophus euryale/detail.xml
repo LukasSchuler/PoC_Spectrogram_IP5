@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomyDetail taxon="Rhinolophus euryale" xmlns="http://batscope4.wsl.ch/taxonomy-detail">
+  <protectionStatus switzerland="DD"/>
+  <acoustics>
+    <literature>
+      <source duration="20-30 ms" maxEnergyFreq="108-101 kHz" name="Schober 1987"/>
+      <source maxEnergyFreq="109-104 kHz" name="Dietz 2007"/>
+      <source comment="Geographische Unterschiede der Tonlage!" maxEnergyFreq="(108) 107-102 (101) kHz" minFreq="(95) 80-75 kHz" name="Skiba 2009"/>
+    </literature>
+  </acoustics>
+  <weblinks>
+    <weblink tabname="Wikipedia" url="https://en.wikipedia.org/wiki/Mediterranean_horseshoe_bat"/>
+    <weblink tabname="GBIF" url="https://www.gbif.org/species/2432621"/>
+    <weblink tabname="IUCN Red List" url="http://www.iucnredlist.org/details/19516/0"/>
+  </weblinks>
+</taxonomyDetail>

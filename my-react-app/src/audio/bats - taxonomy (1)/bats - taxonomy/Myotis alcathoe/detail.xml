@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomyDetail taxon="Myotis alcathoe" xmlns="http://batscope4.wsl.ch/taxonomy-detail">
+  <protectionStatus switzerland="DD"/>
+  <acoustics>
+    <callSpectrograms>
+      <callSpectrogram callCount="231" durLow95="9.753" durLow95Fil="1.486" durMean="10.761" durMeanFil="1.634" durUp95="11.769" durUp95Fil="1.782" filename="type1" highFreqLow95="90.378"
+        highFreqLow95Fil="68.574" highFreqMean="92.399" highFreqMeanFil="69.723" highFreqUp95="94.421" highFreqUp95Fil="70.873" lowFreqLow95="39.081" lowFreqLow95Fil="50.053" lowFreqMean="40.466"
+        lowFreqMeanFil="50.509" lowFreqUp95="41.852" lowFreqUp95Fil="50.966" peakFreqLow95="54.654" peakFreqMean="55.222" peakFreqUp95="55.790"/>
+      <callSpectrogram callCount="93" durLow95="12.464" durLow95Fil="2.403" durMean="14.180" durMeanFil="2.581" durUp95="15.896" durUp95Fil="2.759" filename="type2" highFreqLow95="92.249"
+        highFreqLow95Fil="58.428" highFreqMean="97.331" highFreqMeanFil="59.871" highFreqUp95="102.414" highFreqUp95Fil="61.315" lowFreqLow95="35.281" lowFreqLow95Fil="43.847" lowFreqMean="36.890"
+        lowFreqMeanFil="44.209" lowFreqUp95="38.499" lowFreqUp95Fil="44.572" peakFreqLow95="48.307" peakFreqMean="48.892" peakFreqUp95="49.478"/>
+    </callSpectrograms>
+    <literature>
+      <source duration="4 ms" maxFreq="120 kHz" minFreq="46-43 kHz" name="Dietz 2007"/>
+      <source comment="Verwechslungsmöglichkeit mit Myotis emarginatus." duration="2-4 ms" interval="50-90 ms" maxEnergyFreq="(65) 60-50 (48) kHz" maxFreq="130-100 kHz" minFreq="47-41 kHz"
+        name="Skiba 2009"/>
+    </literature>
+    <audioFiles>
+      <audioFile fftSize="1024" fileName="call1" hopSize="100" windowSize="720"/>
+    </audioFiles>
+  </acoustics>
+  <weblinks>
+    <weblink tabname="Wikipedia" url="https://en.wikipedia.org/wiki/Myotis_alcathoe"/>
+    <weblink tabname="GBIF" url="https://www.gbif.org/species/4266346"/>
+    <weblink tabname="IUCN Red List" url="http://www.iucnredlist.org/details/136680/0"/>
+    <weblink tabname="CSCF" url="https://lepus.unine.ch/carto/index.php?nuesp=70844&amp;rivieres=on&amp;lacs=on&amp;hillsh=on&amp;data=on&amp;year=2000"/>
+  </weblinks>
+</taxonomyDetail>

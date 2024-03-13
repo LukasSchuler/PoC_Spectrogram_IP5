@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomyDetail taxon="Miniopterus schreibersii" xmlns="http://batscope4.wsl.ch/taxonomy-detail">
+  <protectionStatus switzerland="EN"/>
+  <acoustics>
+    <callSpectrograms>
+      <callSpectrogram callCount="346" durLow95="3.895" durLow95Fil="1.795" durMean="4.484" durMeanFil="1.908" durUp95="5.073" durUp95Fil="2.020" filename="type1" highFreqLow95="78.243"
+        highFreqLow95Fil="65.004" highFreqMean="80.723" highFreqMeanFil="65.733" highFreqUp95="83.203" highFreqUp95Fil="66.461" lowFreqLow95="46.113" lowFreqLow95Fil="51.399" lowFreqMean="47.179"
+        lowFreqMeanFil="51.629" lowFreqUp95="48.246" lowFreqUp95Fil="51.858" peakFreqLow95="54.862" peakFreqMean="55.209" peakFreqUp95="55.557"/>
+      <callSpectrogram callCount="261" durLow95="6.889" durLow95Fil="3.792" durMean="7.529" durMeanFil="3.966" durUp95="8.169" durUp95Fil="4.141" filename="type2" highFreqLow95="74.996"
+        highFreqLow95Fil="63.198" highFreqMean="77.691" highFreqMeanFil="64.126" highFreqUp95="80.386" highFreqUp95Fil="65.054" lowFreqLow95="46.283" lowFreqLow95Fil="51.449" lowFreqMean="47.500"
+        lowFreqMeanFil="51.603" lowFreqUp95="48.717" lowFreqUp95Fil="51.757" peakFreqLow95="54.563" peakFreqMean="55.040" peakFreqUp95="55.517"/>
+      <callSpectrogram callCount="138" durLow95="7.599" durLow95Fil="5.391" durMean="8.385" durMeanFil="5.701" durUp95="9.171" durUp95Fil="6.011" filename="type3" highFreqLow95="69.601"
+        highFreqLow95Fil="59.224" highFreqMean="73.513" highFreqMeanFil="60.243" highFreqUp95="77.424" highFreqUp95Fil="61.262" lowFreqLow95="43.941" lowFreqLow95Fil="50.885" lowFreqMean="45.670"
+        lowFreqMeanFil="51.073" lowFreqUp95="47.399" lowFreqUp95Fil="51.261" peakFreqLow95="52.415" peakFreqMean="52.864" peakFreqUp95="53.313"/>
+      <callSpectrogram callCount="31" durLow95="7.790" durLow95Fil="6.088" durMean="9.433" durMeanFil="6.797" durUp95="11.076" durUp95Fil="7.507" filename="type4" highFreqLow95="66.739"
+        highFreqLow95Fil="54.895" highFreqMean="77.344" highFreqMeanFil="56.190" highFreqUp95="87.948" highFreqUp95Fil="57.485" lowFreqLow95="39.428" lowFreqLow95Fil="50.283" lowFreqMean="43.727"
+        lowFreqMeanFil="50.684" lowFreqUp95="48.025" lowFreqUp95Fil="51.084" peakFreqLow95="51.314" peakFreqMean="52.072" peakFreqUp95="52.830"/>
+    </callSpectrograms>
+    <literature>
+      <source comment="Keine Angaben zu Ortungslauten." name="Schober 1987"/>
+      <source duration="-15 ms" interval="65-140 ms" maxEnergyFreq="53-49 kHz" maxFreq="75-55 kHz" minFreq="52 kHz" name="Dietz 2007"/>
+      <source duration="(6) 7-13 (15) ms" interval="65-140 ms" maxEnergyFreq="(56) 55-51 (49) kHz" maxFreq="80-55 kHz" minFreq="55-49 kHz" name="Skiba 2009"/>
+    </literature>
+    <audioFiles>
+      <audioFile fftSize="1024" fileName="call1" hopSize="100" windowSize="720"/>
+    </audioFiles>
+  </acoustics>
+  <weblinks>
+    <weblink tabname="Wikipedia" url="https://en.wikipedia.org/wiki/Common_bent-wing_bat"/>
+    <weblink tabname="GBIF" url="https://www.gbif.org/species/8943342"/>
+    <weblink tabname="IUCN Red List" url="http://www.iucnredlist.org/details/13561/0"/>
+    <weblink tabname="CSCF" url="https://lepus.unine.ch/carto/index.php?nuesp=70710&amp;rivieres=on&amp;lacs=on&amp;hillsh=on&amp;data=on&amp;year=2000"/>
+  </weblinks>
+</taxonomyDetail>

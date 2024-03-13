@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomyDetail taxon="Nyctalus noctula" xmlns="http://batscope4.wsl.ch/taxonomy-detail">
+  <protectionStatus switzerland="NT"/>
+  <acoustics>
+    <callSpectrograms>
+      <callSpectrogram callCount="4" durLow95="1.153" durLow95Fil="1.399" durMean="1.323" durMeanFil="1.840" durUp95="1.493" durUp95Fil="2.281" filename="type1" highFreqLow95="30.379"
+        highFreqLow95Fil="38.434" highFreqMean="47.005" highFreqMeanFil="39.355" highFreqUp95="63.631" highFreqUp95Fil="40.275" lowFreqLow95="26.007" lowFreqLow95Fil="25.887" lowFreqMean="27.655"
+        lowFreqMeanFil="27.390" lowFreqUp95="29.303" lowFreqUp95Fil="28.893" peakFreqLow95="29.726" peakFreqMean="32.501" peakFreqUp95="35.276"/>
+      <callSpectrogram callCount="35" durLow95="1.390" durLow95Fil="2.542" durMean="2.722" durMeanFil="2.729" durUp95="4.055" durUp95Fil="2.916" filename="type2" highFreqLow95="45.212"
+        highFreqLow95Fil="40.710" highFreqMean="48.489" highFreqMeanFil="42.751" highFreqUp95="51.766" highFreqUp95Fil="44.792" lowFreqLow95="26.792" lowFreqLow95Fil="25.781" lowFreqMean="27.438"
+        lowFreqMeanFil="26.345" lowFreqUp95="28.084" lowFreqUp95Fil="26.910" peakFreqLow95="30.234" peakFreqMean="30.914" peakFreqUp95="31.595"/>
+      <callSpectrogram callCount="71" durLow95="6.054" durLow95Fil="6.270" durMean="6.881" durMeanFil="6.607" durUp95="7.707" durUp95Fil="6.945" filename="type3" highFreqLow95="37.027"
+        highFreqLow95Fil="32.480" highFreqMean="43.045" highFreqMeanFil="33.104" highFreqUp95="49.063" highFreqUp95Fil="33.728" lowFreqLow95="23.549" lowFreqLow95Fil="24.904" lowFreqMean="24.275"
+        lowFreqMeanFil="25.241" lowFreqUp95="25.000" lowFreqUp95Fil="25.579" peakFreqLow95="26.973" peakFreqMean="27.300" peakFreqUp95="27.628"/>
+      <callSpectrogram callCount="325" durLow95="8.799" durLow95Fil="10.481" durMean="9.142" durMeanFil="10.778" durUp95="9.486" durUp95Fil="11.074" filename="type4" highFreqLow95="31.060"
+        highFreqLow95Fil="28.280" highFreqMean="32.738" highFreqMeanFil="28.668" highFreqUp95="34.417" highFreqUp95Fil="29.056" lowFreqLow95="22.212" lowFreqLow95Fil="23.490" lowFreqMean="22.477"
+        lowFreqMeanFil="23.681" lowFreqUp95="22.743" lowFreqUp95Fil="23.873" peakFreqLow95="24.766" peakFreqMean="24.999" peakFreqUp95="25.231"/>
+      <callSpectrogram callCount="395" durLow95="13.649" durLow95Fil="15.740" durMean="13.959" durMeanFil="16.098" durUp95="14.269" durUp95Fil="16.457" filename="type5" highFreqLow95="23.378"
+        highFreqLow95Fil="21.374" highFreqMean="24.613" highFreqMeanFil="21.703" highFreqUp95="25.848" highFreqUp95Fil="22.033" lowFreqLow95="18.365" lowFreqLow95Fil="19.644" lowFreqMean="18.620"
+        lowFreqMeanFil="19.912" lowFreqUp95="18.876" lowFreqUp95Fil="20.181" peakFreqLow95="20.197" peakFreqMean="20.478" peakFreqUp95="20.759"/>
+    </callSpectrograms>
+    <literature>
+      <source duration="6-25 ms" interval="125-400 ms" maxEnergyFreq="25 kHz" maxFreq="45-25 kHz" minFreq="25-19 kHz" name="Schober 1987"/>
+      <source duration="13-20 (28) ms" maxFreq="60-30 kHz" minFreq="(28) 22-19 (16) kHz" name="Dietz 2007"/>
+      <source comment="Charakteristische Plip-plop. Frequenzwerte in Klammern bezeichnen Endwerte der beiden Ruftypen." duration="(5) 6-26 (28) ms" interval="(150) 250-300 (400) ms"
+        maxEnergyFreq="(29) 27-18 (17) kHz" maxFreq="(40) 27-22 (20) kHz" minFreq="(27) 20 (16) kHz" name="Skiba 2009"/>
+    </literature>
+    <audioFiles>
+      <audioFile fftSize="1024" fileName="call1" hopSize="100" windowSize="720"/>
+    </audioFiles>
+  </acoustics>
+  <weblinks>
+    <weblink tabname="Wikipedia" url="https://en.wikipedia.org/wiki/Common_noctule"/>
+    <weblink tabname="GBIF" url="https://www.gbif.org/species/5218524"/>
+    <weblink tabname="IUCN Red List" url="http://www.iucnredlist.org/details/14920/0"/>
+    <weblink tabname="CSCF" url="https://lepus.unine.ch/carto/index.php?nuesp=70726&amp;rivieres=on&amp;lacs=on&amp;hillsh=on&amp;data=on&amp;year=2000"/>
+    <weblink tabname="SSF" url="http://www.fledermausschutz.ch/Fledermaeuse/Abendsegler.html"/>
+  </weblinks>
+</taxonomyDetail>
