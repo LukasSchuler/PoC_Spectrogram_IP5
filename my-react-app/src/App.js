@@ -22,12 +22,25 @@ function App() {
             mediaControls: true,
             url: audio,
             sampleRate: 250000,
-            height:100,
+            height:30,
+            plugins: [
+                Spectrogram.create({
+                    labels: true,
+                    labelsColor: "black",
+                    labelsHzColor: "black",
+                    height: 1000,
+                    splitChannels: true,
+                    frequencyMin: 10000,
+                    frequencyMax: 130000,
+                    fftSamples: 16384,
+                })
+            ],
+
 
         });
 
         // Initialize the Spectrogram plugin
-        ws.registerPlugin(
+  /*      ws.registerPlugin(
             Spectrogram.create({
                 labels: true,
                 labelsColor: "black",
@@ -38,8 +51,9 @@ function App() {
                 frequencyMax: 130000,
                 fftSamples: 16384,
 
+
             })
-        );
+        ); */
 
         // Play on click
         ws.once('interaction', () => {
