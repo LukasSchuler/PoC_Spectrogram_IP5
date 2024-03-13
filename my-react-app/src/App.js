@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 
 import SpectrogramPlayer from "react-audio-spectrogram-player";
 import sxx from "./res/19-198-0001.json";
-import src from "./res/file_example.wav";
+import src from "./res/3337.wav";
 
 
 
@@ -11,7 +10,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
