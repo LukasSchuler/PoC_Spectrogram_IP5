@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import './App.css';
 import WaveSurfer from "wavesurfer.js";
 import Spectrogram from "wavesurfer.js/dist/plugins/spectrogram.esm";
-import audio from "./audio/3337-4698_2023-08-31T18-28-00Z.wav";
+import audio from "./audio/original_3337-4698_2023-08-31T18-28-00Z.wav";
 
 
 function App() {
@@ -29,19 +29,20 @@ function App() {
             progressColor: 'rgb(255, 255, 255)',
             mediaControls: true,
             url: audio,
-            sampleRate: 250000,
+            sampleRate:250000,
             height:20,
             plugins: [
                 Spectrogram.create({
                     labels: true,
                     labelsColor: "white",
                     labelsHzColor: "white",
-                    height: 256,
+                    height: 512,
                     colorMap: colors,
-                    splitChannels: true,
-                    frequencyMin: 10000,
-                    frequencyMax: 126000,
-                    fftSamples: 16384,
+                    splitChannels: false,
+                    frequencyMin: 1,
+                    frequencyMax: 125000,
+                    fftSamples: 2048,
+
                 })
             ],
 
@@ -76,16 +77,18 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
+                <div>Current Speed: {playbackSpeed.toFixed(1)}</div>
                 <input
                     type="range"
                     min="0.1"
-                    max="2.0"
+                    max="1.0"
                     step="0.1"
                     value={playbackSpeed}
                     onChange={handleSpeedChange}
                     onInput={handleSpeedChange} // Handle continuous input changes
                 />
-                <div id="waveform" ref={waveformRef} style={{ width: '100%', height: '500px' }}></div> {/* Assign the ref to the waveform container */}
+                <div id="waveform" ref={waveformRef} style={{width: '100%', height: '500px'}}></div>
+                {/* Assign the ref to the waveform container */}
             </header>
         </div>
     );
