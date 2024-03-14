@@ -11,7 +11,16 @@ function App() {
     const wsRef = useRef(null); // Create a ref for WaveSurfer instance
 
     useEffect(() => {
+
         if (!waveformRef.current) return; // Check if the ref is available
+
+        const colormap = require('colormap');
+        const colors = colormap({
+            colormap: 'hot',
+            nshades: 256,
+            format: 'float',
+            alpha:1,
+        });
 
         // Create an instance of WaveSurfer
         const ws = WaveSurfer.create({
@@ -22,37 +31,30 @@ function App() {
             url: audio,
             sampleRate: 250000,
             height:20,
+            plugins: [
+                Spectrogram.create({
+                    labels: true,
+                    labelsColor: "white",
+                    labelsHzColor: "white",
+                    height: 256,
+                    colorMap: colors,
+                    splitChannels: true,
+                    frequencyMin: 10000,
+                    frequencyMax: 126000,
+                    fftSamples: 16384,
+                })
+            ],
+
 
         });
 
-        const colormap = require('colormap');
-        const colors = colormap({
-            colormap: 'hot',
-            nshades: 256,
-            format: 'float',
-            alpha:1,
-        });
-
-        // Initialize the Spectrogram plugin
-        ws.registerPlugin(
-            Spectrogram.create({
-                labels: true,
-                labelsColor: "white",
-                labelsHzColor: "white",
-                height: 256,
-                colorMap: colors,
-                splitChannels: true,
-                frequencyMin: 10000,
-                frequencyMax: 126000,
-                fftSamples: 16384,
-            })
-        );
 
         wsRef.current = ws; // Save WaveSurfer instance to ref
 
         // Play on interaction
         ws.once('interaction', () => {
             ws.play();
+            ws.setPlaybackRate(0.1, false)
 
         });
 
@@ -90,5 +92,3 @@ function App() {
 }
 
 export default App;
-
-
