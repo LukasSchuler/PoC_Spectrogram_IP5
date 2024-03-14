@@ -1,17 +1,16 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import './App.css';
 import WaveSurfer from "wavesurfer.js";
 import Spectrogram from "wavesurfer.js/dist/plugins/spectrogram.esm";
 import audio from "./audio/3337-4698_2023-08-31T18-28-00Z.wav";
 
-
 function App() {
     const waveformRef = useRef(null); // Create a ref for the waveform container
     const [playbackSpeed, setPlaybackSpeed] = useState(1.0); // State for playback speed
+    const [zoomLevel, setZoomLevel] = useState(0);
     const wsRef = useRef(null); // Create a ref for WaveSurfer instance
 
     useEffect(() => {
-
         if (!waveformRef.current) return; // Check if the ref is available
 
         const colormap = require('colormap');
@@ -19,7 +18,7 @@ function App() {
             colormap: 'hot',
             nshades: 256,
             format: 'float',
-            alpha:1,
+            alpha: 1,
         });
 
         // Create an instance of WaveSurfer
@@ -30,7 +29,7 @@ function App() {
             mediaControls: true,
             url: audio,
             sampleRate: 250000,
-            height:20,
+            height: 0,
             plugins: [
                 Spectrogram.create({
                     labels: true,
@@ -39,32 +38,26 @@ function App() {
                     height: 256,
                     colorMap: colors,
                     splitChannels: true,
-                    frequencyMin: 10000,
-                    frequencyMax: 126000,
-                    fftSamples: 16384,
+                    frequencyMin: 0,
+                    frequencyMax: 125000,
+                    fftSamples: 1024,
+                    workers: 8,
                 })
             ],
-
-
         });
-
 
         wsRef.current = ws; // Save WaveSurfer instance to ref
 
         // Play on interaction
         ws.once('interaction', () => {
             ws.play();
-            ws.setPlaybackRate(0.1, false)
-
         });
 
         // Clean up on unmount
         return () => {
             ws.destroy();
         };
-    }, []); // Include only empty dependency array since we only want to run this once
-
-    // Handler for changing playback speed
+    }, []);
     const handleSpeedChange = (event) => {
         const newSpeed = parseFloat(event.target.value);
         setPlaybackSpeed(newSpeed);
@@ -73,22 +66,66 @@ function App() {
         }
     };
 
+    // Handler for zooming in
+    const handleZoomIn = () => {
+        const newZoomLevel = zoomLevel + 50;
+        setZoomLevel(newZoomLevel);
+        if (wsRef.current) {
+            wsRef.current.zoom(newZoomLevel);
+        }
+    };
+
+    const handleZoomOut = () => {
+        const newZoomLevel = zoomLevel - 50;
+        setZoomLevel(newZoomLevel < 0 ? 0 : newZoomLevel);
+        if (wsRef.current) {
+            wsRef.current.zoom(newZoomLevel);
+        }
+    };
+
     return (
         <div className="App">
             <header className="App-header">
-                <input
-                    type="range"
-                    min="0.1"
-                    max="2.0"
-                    step="0.1"
-                    value={playbackSpeed}
-                    onChange={handleSpeedChange}
-                    onInput={handleSpeedChange} // Handle continuous input changes
-                />
-                <div id="waveform" ref={waveformRef} style={{ width: '100%', height: '500px' }}></div> {/* Assign the ref to the waveform container */}
+                <div>
+                    <h1>Spectrogram PoC</h1>
+                </div>
+                <div id="waveform" ref={waveformRef} style={{width: '100%', height: '400px'}}></div>
+                    <div style={{ display: 'flex' }}>
+                    <div>
+                        <div>
+                            <div>
+                                <span>Playback Speed</span>
+                            </div>
+                            <span>{playbackSpeed}x</span>
+                        </div>
+                        <input
+                            type="range"
+                            min="0.1"
+                            max="1.0"
+                            step="0.1"
+                            value={playbackSpeed}
+                            onChange={handleSpeedChange}
+                            onInput={handleSpeedChange}
+                        />
+                    </div>
+
+                    <div style={{ marginLeft: '200px' }}>
+                    <div>
+                        <span>Zoom</span>
+                    </div>
+                    <span>{zoomLevel + 100}%</span>
+                    <div>
+                        <button onClick={handleZoomOut} style={{marginRight: '5px'}}>-</button>
+                        <button onClick={handleZoomIn}>+</button>
+                    </div>
+                    </div>
+                    </div>
             </header>
         </div>
     );
 }
 
 export default App;
+
+
+
