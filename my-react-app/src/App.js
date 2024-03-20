@@ -2,16 +2,16 @@ import React, {useEffect, useRef, useState} from 'react';
 import './App.css';
 import WaveSurfer from "wavesurfer.js";
 import Spectrogram from "wavesurfer.js/dist/plugins/spectrogram.esm";
-import audio from "./audio/3337-4698_2023-08-31T18-28-00Z.wav";
+import audio from "./audio/original_3337-4698_2023-08-31T18-28-00Z.wav";
 
 function App() {
-    const waveformRef = useRef(null); // Create a ref for the waveform container
-    const [playbackSpeed, setPlaybackSpeed] = useState(1.0); // State for playback speed
+    const waveformRef = useRef(null);
+    const [playbackSpeed, setPlaybackSpeed] = useState(1.0);
     const [zoomLevel, setZoomLevel] = useState(0);
-    const wsRef = useRef(null); // Create a ref for WaveSurfer instance
+    const wsRef = useRef(null);
 
     useEffect(() => {
-        if (!waveformRef.current) return; // Check if the ref is available
+        if (!waveformRef.current) return;
 
         const colormap = require('colormap');
         const colors = colormap({
@@ -21,9 +21,9 @@ function App() {
             alpha: 1,
         });
 
-        // Create an instance of WaveSurfer
+
         const ws = WaveSurfer.create({
-            container: waveformRef.current, // Pass the ref to the container property
+            container: waveformRef.current,
             waveColor: 'rgb(255, 255, 255)',
             progressColor: 'rgb(255, 255, 255)',
             mediaControls: true,
@@ -41,19 +41,16 @@ function App() {
                     frequencyMin: 0,
                     frequencyMax: 125000,
                     fftSamples: 1024,
-                    workers: 8,
                 })
             ],
         });
 
-        wsRef.current = ws; // Save WaveSurfer instance to ref
+        wsRef.current = ws;
 
-        // Play on interaction
         ws.once('interaction', () => {
             ws.play();
         });
 
-        // Clean up on unmount
         return () => {
             ws.destroy();
         };
@@ -66,7 +63,6 @@ function App() {
         }
     };
 
-    // Handler for zooming in
     const handleZoomIn = () => {
         const newZoomLevel = zoomLevel + 50;
         setZoomLevel(newZoomLevel);
