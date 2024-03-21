@@ -83,7 +83,7 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <div>
-                    <h1>Spectrogram PoC</h1>
+                    <h1>Spectrogram PoC111111111</h1>
                 </div>
                 <div id="waveform" ref={waveformRef} style={{width: '100%', height: '400px'}}></div>
                     <div style={{ display: 'flex' }}>

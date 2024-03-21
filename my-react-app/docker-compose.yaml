@@ -1,0 +1,10 @@
+version: "1.0.1"
+services:
+  mypoc:
+    build: .
+    container_name: mypoc_c
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    tty: true
+
